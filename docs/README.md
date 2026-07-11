@@ -59,6 +59,7 @@
 | 23-S| [Plugin Sandboxing](./23-plugin-sandboxing.md)                   | Worker isolation, capabilities, and plugin limits |
 | 24  | [MCP Integration](./24-mcp-integration.md)                       | Model Context Protocol tools and auth model       |
 | 25  | [Integration Fabric](./25-integration-fabric.md)                | Inbound webhook substrate for plugin integrations |
+| 26  | [Panduan Instalasi Localhost (ID)](./26-instalasi-localhost.md)  | Instalasi Docker dan manual untuk localhost, dalam Bahasa Indonesia |
 
 **Examples**
 
@@ -111,6 +112,10 @@ Access (the dashboard is bundled into the API and served on the same port):
 - Dashboard: `http://localhost:2785`
 - API: `http://localhost:2785/api`
 - Swagger: `http://localhost:2785/api/docs`
+
+> For a step-by-step walkthrough of both options (including prerequisites and
+> localhost-specific troubleshooting), see
+> [Panduan Instalasi Localhost (ID)](./26-instalasi-localhost.md).
 
 ### API Key
 
@@ -200,7 +205,7 @@ socket.on('message', msg => {
 ## Tech Stack
 
 | Layer     | Technology                    |
-| --------- | ----------------------------- |
+| --------- | ------------------------------ |
 | Runtime   | Node.js 22 LTS                |
 | Framework | NestJS 11.x                   |
 | Language  | TypeScript 5.x                |
