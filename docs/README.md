@@ -1,1 +1,247 @@
-PGltZyBhbGlnbj0iY2VudGVyIiBzcmM9ImxvZ28vb3BlbndhX2xvZ28ud2VicCIgYWx0PSJPcGVuV0EgTG9nbyIgd2lkdGg9IjIwMCIvPgo8L3A+Cgo8aDEgYWxpZ249ImNlbnRlciI+T3BlbldBIERvY3VtZW50YXRpb248L2gxPgo8cCBhbGlnbj0iY2VudGVyIj4KICA8c3Ryb25nPk9wZW4gU291cmNlIFdoYXRzQXBwIEFQSSBHYXRld2F5PC9zdHJvbmc+CjwvcD4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxhIGhyZWY9IiNmZWF0dXJlcy1jdXJyZW50Ij5GZWF0dXJlczwvYT4g4oCiCiAgPGEgaHJlZj0iI3F1aWNrLXN0YXJ0Ij5RdWljayBTdGFydDwvYT4g4oCiCiAgPGEgaHJlZj0iI2RvY3VtZW50YXRpb24tbWFwIj5Eb2NzPC9hPiDigKIKICA8YSBocmVmPSIjYXBpLWV4YW1wbGUiPkFQSTwvYT4g4oCiCiAgPGEgaHJlZj0iI2NvbnRyaWJ1dGluZyI+Q29udHJpYnV0aW5nPC9hPgo8L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9naXRodWIvcGFja2FnZS1qc29uL3YvcmVteW5kaGFyaXMvT3BlbldBP2xhYmVsPXZlcnNpb24mY29sb3I9Ymx1ZSIgYWx0PSJWZXJzaW9uIi8+CiAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvbGljZW5zZS1NSVQtZ3JlZW4uc3ZnIiBhbHQ9IkxpY2Vuc2UiLz4KICA8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9ub2RlLTIyX0xUUy1icmlnaHRncmVlbi5zdmciIGFsdD0iTm9kZSIvPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL05lc3RKUy0xMS54LXJlZC5zdmciIGFsdD0iTmVzdEpTIi8+CiAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvZG9ja2VyLXJlYWR5LWJsdWUuc3ZnIiBhbHQ9IkRvY2tlciIvPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1R5cGVTY3JpcHQtNS54LTMxNzhDNi5zdmciIGFsdD0iVHlwZVNjcmlwdCIvPgo8L3A+Ci0tLQoKIyMgRG9jdW1lbnRhdGlvbiBNYXAKCioqRnVsbCBJbmRleCAoYnkgbnVtYmVyKSoqCgp8IE5vICB8IERvY3VtZW50ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgRGVzY3JpcHRpb24gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IDAxICB8IFtQcm9qZWN0IE92ZXJ2aWV3XSguLzAxLXByb2plY3Qtb3ZlcnZpZXcubWQpICAgICAgICAgICAgICAgICAgICAgfCBWaXNpb24sIGdvYWxzLCBzY29wZSwgY3VycmVudCBzdGF0dXMgICAgICAgICAgICAgIHwKfCAwMiAgfCBbUmVxdWlyZW1lbnRzIFNwZWNpZmljYXRpb25dKC4vMDItcmVxdWlyZW1lbnRzLXNwZWNpZmljYXRpb24ubWQpIHwgRnVuY3Rpb25hbCBhbmQgbm9uLWZ1bmN0aW9uYWwgcmVxdWlyZW1lbnRzICAgICAgICB8CnwgMDMgIHwgW1N5c3RlbSBBcmNoaXRlY3R1cmVdKC4vMDMtc3lzdGVtLWFyY2hpdGVjdHVyZS5tZCkgICAgICAgICAgICAgICB8IEFyY2hpdGVjdHVyZSwgbW9kdWxlcywgYW5kIHJ1bnRpbWUgZmxvd3MgICAgICAgICAgfAp8IDA0ICB8IFtTZWN1cml0eSBEZXNpZ25dKC4vMDQtc2VjdXJpdHktZGVzaWduLm1kKSAgICAgICAgICAgICAgICAgICAgICAgfCBBdXRoLCByYXRlIGxpbWl0aW5nLCBhbmQgc2VjdXJpdHkgY29udHJvbHMgICAgICAgIHwKfCAwNSAgfCBbRGF0YWJhc2UgRGVzaWduXSguLzA1LWRhdGFiYXNlLWRlc2lnbi5tZCkgICAgICAgICAgICAgICAgICAgICAgIHwgRW50aXRpZXMgYW5kIHN0b3JhZ2UgY29uc2lkZXJhdGlvbnMgICAgICAgICAgICAgIHwKfCAwNiAgfCBbQVBJIFNwZWNpZmljYXRpb25dKC4vMDYtYXBpLXNwZWNpZmljYXRpb24ubWQpICAgICAgICAgICAgICAgICAgIHwgUkVTVCBBUEkgYW5kIFdlYlNvY2tldCBwcm90b2NvbCAgICAgICAgICAgICAgICB8CnwgMDcgIHwgW0FQSSBDb2xsZWN0aW9uXSguLzA3LWFwaS1jb2xsZWN0aW9uLm1kKSAgICAgICAgICAgICAgICAgICAgICAgICB8IEV4YW1wbGUgcmVxdWVzdHMgYW5kIFBvc3RtYW4gaW1wb3J0IHRpcHMgICAgICAgICAgfAp8IDA4ICB8IFtEZXZlbG9wbWVudCBHdWlkZWxpbmVzXSguLzA4LWRldmVsb3BtZW50LWd1aWRlbGluZXMubWQpICAgICAgICAgfCBDb2Rpbmcgc3RhbmRhcmRzIGFuZCB3b3JrZmxvdyAgICAgICAgICAgICAgICAgICAgIHwKfCAwOSAgfCBbVGVzdGluZyBTdHJhdGVneV0oLi8wOS10ZXN0aW5nLXN0cmF0ZWd5Lm1kKSAgICAgICAgICAgICAgICAgICAgIHwgVGVzdCB0eXBlcyBhbmQgdG9vbGluZyAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgMTAgIHwgW0Rldk9wcyAmIEluZnJhc3RydWN0dXJlXSguLzEwLWRldm9wcy1pbmZyYXN0cnVjdHVyZS5tZCkgICAgICAgICB8IERvY2tlciwgZGVwbG95bWVudCwgYW5kIGVudmlyb25tZW50IGNvbmZpZ3VyYXRpb24gfAp8IDEwLUlEfCBbUGFuZHVhbiBEb2NrZXIgKElEKV0oLi9ET0NLRVJfSUQubWQpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFBhbmR1YW4gZGVwbG95bWVudCBEb2NrZXIgZGFsYW0gQmFoYXNhIEluZG9uZXNpYSAgfAp8IDExICB8IFtPcGVyYXRpb25hbCBSdW5ib29rc10oLi8xMS1vcGVyYXRpb25hbC1ydW5ib29rcy5tZCkgICAgICAgICAgICAgfCBJbmNpZGVudCwgbWFpbnRlbmFuY2UsIGFuZCBiYWNrdXAgcnVuYm9va3MgICAgICAgIHwKfCAxMiAgfCBbVHJvdWJsZXNob290aW5nIEZBUV0oLi8xMi10cm91Ymxlc2hvb3RpbmctZmFxLm1kKSAgICAgICAgICAgICAgIHwgQ29tbW9uIGlzc3VlcyBhbmQgZml4ZXMgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgMTMgIHwgW0hvcml6b250YWwgU2NhbGluZ10oLi8xMy1ob3Jpem9udGFsLXNjYWxpbmcubWQpICAgICAgICAgICAgICAgICB8IE11bHRpLW5vZGUgZGVwbG95bWVudCBndWlkYW5jZSAgICAgICAgICAgICAgICAgICAgIHwKfCAxNCAgfCBbTWlncmF0aW9uIEd1aWRlXSguLzE0LW1pZ3JhdGlvbi1ndWlkZS5tZCkgICAgICAgICAgICAgICAgICAgICAgIHwgVXBncmFkZSBhbmQgZGF0YSBtaWdyYXRpb24gZ3VpZGFuY2UgICAgICAgICAgICAgIHwKfCAxNSAgfCBbUHJvamVjdCBSb2FkbWFwXSguLzE1LXByb2plY3Qtcm9hZG1hcC5tZCkgICAgICAgICAgICAgICAgICAgICAgIHwgTmVhci10ZXJtIGFuZCBsb25nLXRlcm0gcm9hZG1hcCAgICAgICAgICAgICAgICAgIHwKfCAxNiAgfCBbUmlzayBNYW5hZ2VtZW50XSguLzE2LXJpc2stbWFuYWdlbWVudC5tZCkgICAgICAgICAgICAgICAgICAgICAgIHwgUmlza3MgYW5kIG1pdGlnYXRpb25zICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgMTcgIHwgW0Rhc2hib2FyZCBEZXNpZ25dKC4vMTctZGFzaGJvYXJkLWRlc2lnbi5tZCkgICAgICAgICAgICAgICAgICAgICB8IERhc2hib2FyZCBVWCBvdmVydmlldyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IDE4ICB8IFtTREsgRGVzaWduXSguLzE4LXNkay1kZXNpZ24ubWQpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBTREsgcGxhbnMgYW5kIGNvbnZlbnRpb25zICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAxOSAgfCBbUGx1Z2luIEFyY2hpdGVjdHVyZV0oLi8xOS1wbHVnaW4tYXJjaGl0ZWN0dXJlLm1kKSAgICAgICAgICAgICAgIHwgRXh0ZW5zaWJpbGl0eSBjb25jZXB0cyAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgMjAgIHwgW0NvbW11bml0eSBHdWlkZWxpbmVzXSguLzIwLWNvbW11bml0eS1ndWlkZWxpbmVzLm1kKSAgICAgICAgICAgICB8IENvbnRyaWJ1dGlvbiBhbmQgZ292ZXJuYW5jZSAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAyMSAgfCBbR2xvc3NhcnldKC4vMjEtZ2xvc3NhcnkubWQpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgVGVybXMgYW5kIGRlZmluaXRpb25zICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAyMiAgfCBbbjhuIEludGVncmF0aW9uXSguLzIyLW44bi1pbnRlZ3JhdGlvbi5tZCkgICAgICAgICAgICAgICAgICAgICAgIHwgbjhuIGNvbW11bml0eSBub2RlcyBmb3IgT3BlbldBICAgICAgICAgICAgICAgICAgICB8CnwgMjMgIHwgW0NvbW11bml0eSBJbnRlZ3JhdGlvbnNdKC4vMjMtY29tbXVuaXR5LWludGVncmF0aW9ucy5tZCkgICAgICAgICB8IFRoaXJkLXBhcnR5IGFkYXB0ZXJzIGJ1aWx0IG9uIHRoZSBPcGVuV0EgQVBJICAgICAgfAp8IDIzLVN8IFtQbHVnaW4gU2FuZGJveGluZ10oLi8yMy1wbHVnaW4tc2FuZGJveGluZy5tZCkgICAgICAgICAgICAgICAgICAgfCBXb3JrZXIgaXNvbGF0aW9uLCBjYXBhYmlsaXRpZXMsIGFuZCBwbHVnaW4gbGltaXRzIHwKfCAyNCAgfCBbTUNQIEludGVncmF0aW9uXSguLzI0LW1jcC1pbnRlZ3JhdGlvbi5tZCkgICAgICAgICAgICAgICAgICAgICAgIHwgTW9kZWwgQ29udGV4dCBQcm90b2NvbCB0b29scyBhbmQgYXV0aCBtb2RlbCAgICAgICB8CnwgMjUgIHwgW0ludGVncmF0aW9uIEZhYnJpY10oLi8yNS1pbnRlZ3JhdGlvbi1mYWJyaWMubWQpICAgICAgICAgICAgICAgIHwgSW5ib3VuZCB3ZWJob29rIHN1YnN0cmF0ZSBmb3IgcGx1Z2luIGludGVncmF0aW9ucyB8CnwgMjYgIHwgW1BhbmR1YW4gSW5zdGFsYXNpIExvY2FsaG9zdCAoSUQpXSguLzI2LWluc3RhbGFzaS1sb2NhbGhvc3QubWQpIHwgSW5zdGFsYXNpIERvY2tlciBkYW4gbWFudWFsIHVudHVrIGxvY2FsaG9zdCwgZGFsYW0gQmFoYXNhIEluZG9uZXNpYSB8CgoqKkV4YW1wbGVzKioKCnwgRXhhbXBsZSB8IERlc2NyaXB0aW9uIHwKfCAtLS0tLS0tIHwgLS0tLS0tLS0tLS0gfAp8IFtTZXNzaW9uIFBob25lLU51bWJlciBQYWlyaW5nXSguL2V4YW1wbGVzL3Nlc3Npb24tcGhvbmUtbnVtYmVyLXBhaXJpbmcubWQpIHwgTGluayBhbiBleGlzdGluZyBXaGF0c0FwcCBhY2NvdW50IGJ5IHBob25lIG51bWJlciBpbnN0ZWFkIG9mIHNjYW5uaW5nIFFSIHwKfCBbQ2hhdCBIaXN0b3J5IExpbWl0c10oLi9leGFtcGxlcy9jaGF0LWhpc3RvcnktbGltaXRzLm1kKSB8IFVuZGVyc3RhbmQgbG9jYWwgbWVzc2FnZSBoaXN0b3J5IHZzIGJvdW5kZWQgbGl2ZSBXaGF0c0FwcCBoaXN0b3J5IHwKfCBbV2ViaG9vayBTaWduYXR1cmUgVmVyaWZpY2F0aW9uXSguL2V4YW1wbGVzL3dlYmhvb2stc2lnbmF0dXJlLXZlcmlmaWNhdGlvbi5tZCkgfCBWZXJpZnkgc2lnbmVkIE9wZW5XQSB3ZWJob29rIGRlbGl2ZXJpZXMgaW4gTm9kZS5qcyBhbmQgUHl0aG9uIHwKfCBbbjhuIEFwcG9pbnRtZW50IEJvb2tpbmcgV29ya2Zsb3ddKC4vZXhhbXBsZXMvbjhuLWFwcG9pbnRtZW50LWJvb2tpbmcubWQpIHwgQnVpbGQgYW4gYXBwb2ludG1lbnQtYm9va2luZyBmbG93IHdpdGggT3BlbldBIGFuZCBuOG4gfAoKIyMgUXVpY2sgU3RhcnQKCiMjIyBPcHRpb24gQTogTWluaW1hbCBTZXR1cCAoU1FMaXRlLCBubyBEb2NrZXIgc2VydmljZXMpCgpgYGBiYXNoCiMgQ2xvbmUgcmVwb3NpdG9yeQpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL3JteW5kaGFyaXMvT3BlbldBLmdpdApjZCBPcGVuV0EKCiMgSW5zdGFsbCAmIGNvbmZpZ3VyZQpucG0gaW5zdGFsbApjcCAuZW52Lm1pbmltYWwgLmVudgoKIyBDcmVhdGUgZGF0YSBkaXJlY3RvcmllcwptrpZGlyIC1wIGRhdGEvc2Vzc2lvbnMgZGF0YS9tZWRpYQoKIyBSdW4KbnBtIHJ1biBzdGFydDpkZXYKYGBgCgpBY2Nlc3M6CgotIEFQSTogYGh0dHA6Ly9sb2NhbGhvc3Q6Mjc4NS9hcGlgCi0gU3dhZ2dlcjogYGh0dHA6Ly9sb2NhbGhvc3Q6Mjc4NS9hcGkvZG9jc2AKLSBIZWFsdGg6IGBodHRwOi8vbG9jYWxob3N0OjI3ODUvYXBpL2hlYWx0aGAKCiMjIyBPcHRpb24gQjogRG9ja2VyIChzaW5nbGUgY29udGFpbmVyOiBBUEkgKyBEYXNoYm9hcmQpCgpgYGBiYXNoCiMgQ2xvbmUgcmVwb3NpdG9yeQpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL3JteW5kaGFyaXMvT3BlbldBLmdpdApjZCBPcGVuV0EKCiMgU3RhcnQgc2VydmljZXMKZG9ja2VyIGNvbXBvc2UgdXAgLWQKYGBgCgpBY2Nlc3MgKHRoZSBkYXNoYm9hcmQgaXMgYnVuZGxlZCBpbnRvIHRoZSBBUEkgYW5kIHNlcnZlZCBvbiB0aGUgc2FtZSBwb3J0KToKCi0gRGFzaGJvYXJkOiBgaHR0cDovL2xvY2FsaG9zdDoyNzg1YAotIEFQSTogYGh0dHA6Ly9sb2NhbGhvc3Q6Mjc4NS9hcGlgCi0gU3dhZ2dlcjogYGh0dHA6Ly9sb2NhbGhvc3Q6Mjc4NS9hcGkvZG9jc2AKCj4gRm9yIGEgc3RlcC1ieS1zdGVwIHdhbGt0aHJvdWdoIG9mIGJvdGggb3B0aW9ucyAoaW5jbHVkaW5nIHByZXJlcXVpc2l0ZXMgYW5kCj4gbG9jYWxob3N0LXNwZWNpZmljIHRyb3VibGVzaG9vdGluZyksIHNlZQo+IFtQYW5kdWFuIEluc3RhbGFzaSBMb2NhbGhvc3QgKElEKV0oLjI2LWluc3RhbGFzaS1sb2NhbGhvc3QubWQpLgoKIyMjIEFQSSBLZXkKCk9wZW5XQSBzZWVkcyBhIGRlZmF1bHQgQVBJIGtleSBvbiBmaXJzdCBydW4gYW5kIHdyaXRlcyBpdCB0bzoKCi0gYGRhdGEvLmFwaS1rZXlgIChkZXZlbG9wbWVudCkKLSBgL2FwcC9kYXRhLy5hcGkta2V5YCBpbnNpZGUgdGhlIEFQSSBjb250YWluZXIgd2hlbiB1c2luZyBEb2NrZXIKClRoZSBzdGFydHVwIGxvZ3MgYWxzbyBwcmludCB0aGUgaW5pdGlhbCBrZXkuIEJ5IGRlZmF1bHQgYSBjcnlwdG9ncmFwaGljYWxseQpyYW5kb20gYG93YV9rMV8uLi5gIGFkbWluIGtleSBpcyBnZW5lcmF0ZWQgb24gZmlyc3QgcnVuIGluIGFsbCBlbnZpcm9ubWVudHM7IHNldApgQUxMT1dfREVWX0FQSV9LRVk9dHJ1ZWAgdG8gc2VlZCB0aGUgd2VsbC1rbm93biBgZGV2LWFkbWluLWtleWAgZm9yIGxvY2FsCmRldmVsb3BtZW50IG9ubHkuIFVzZSBhbiBhZG1pbiBrZXkgdG8gY3JlYXRlIGFkZGl0aW9uYWwga2V5cyB3aXRoCmBQT1NUIC9hcGkvYXV0aC9hcGkta2V5c2AgKHNlZQpbQVBJIFNwZWNpZmljYXRpb25dKC4vMDYtYXBpLXNwZWNpZmljYXRpb24ubWQjYXBpLWtleS1tYW5hZ2VtZW50KS4KCiMjIEFQSSBFeGFtcGxlCgpgYGBiYXNoCiMgQ3JlYXRlIGEgc2Vzc2lvbgpjdXJsIC1YIFBPU1QgaHR0cDovL2xvY2FsaG9zdDoyNzg1L2FwaS9zZXNzaW9ucyBcCiAgLUggIlgtQVBJLUtleTogeW91ci1hcGkta2V5IiBcCiAgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbiIgXAogIC1kICd7Im5hbWUiOiAibXktYm90In0nCgojIFN0YXJ0IHRoZSBzZXNzaW9uCmN1cmwgLVggUE9TVCBodHRwOi8vbG9jYWxob3N0OjI3ODUvYXBpL3Nlc3Npb25zL3tzZXNzaW9uSWR9L3N0YXJ0IFwKICAtSCAiWC1BUEktS2V5OiB5b3VyLWFwaS1rZXkiCgojIEdldCBRUiBjb2RlIChiYXNlNjQpCmN1cmwgaHR0cDovL2xvY2FsaG9zdDoyNzg1L2FwaS9zZXNzaW9ucy97c2Vzc2lvbklkfS9xciBcCiAgLUggIlgtQVBJLUtleTogeW91ci1hcGkta2V5IgoKIyBTZW5kIGEgbWVzc2FnZQpjdXJsIC1YIFBPU1QgaHR0cDovL2xvY2FsaG9zdDoyNzg1L2FwaS9zZXNzaW9ucy97c2Vzc2lvbklkfS9tZXNzYWdlcy9zZW5kLXRleHQgXAogIC1IICJYLUFQSS1LZXk6IHlvdXItYXBpLWtleSIgXAogIC1IICJDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24iIFwKICAtZCAneyJjaGF0SWQiOiAiNjI4MTIzNDU2Nzg5QGMudXMiLCAidGV4dCI6ICJIZWxsbyBmcm9tIE9wZW5XQSEifScKYGBgCgojIyBXZWJTb2NrZXQgRXhhbXBsZSAoU29ja2V0LklPKQoKYGBgamF2YXNjcmlwdAppbXBvcnQgeyBpbyB9IGZyb20gJ3NvY2tldC5pby1jbGllbnQnOwoKY29uc3Qgc29ja2V0ID0gaW8oJ2h0dHA6Ly9sb2NhbGhvc3Q6Mjc4NS9ldmVudHMnLCB7CiAgZXh0cmFIZWFkZXJzOiB7ICdYLUFQSS1LZXknOiAneW91ci1hcGkta2V5JyB9LAogIHRyYW5zcG9ydHM6IFsnd2Vic29ja2V0J10sCn0pOwoKc29ja2V0Lm9uKCdjb25uZWN0JywgKCkgPT4gewogIHNvY2tldC5lbWl0KCdtZXNzYWdlJywgewogICAgdHlwZTogJ3N1YnNjcmliZScsCiAgICBzZXNzaW9uSWQ6ICdzZXNzX2FiYzEyMycsCiAgICBldmVudHM6IFsnbWVzc2FnZS5yZWNlaXZlZCcsICdzZXNzaW9uLnN0YXR1cyddLAogICAgcmVxdWVzdElkOiAncmVxXzAwMScsCiAgfSk7Cn0pOwoKc29ja2V0Lm9uKCdtZXNzYWdlJywgbXNnID0+IHsKICBpZiAobXNnLnR5cGUgPT09ICdldmVudCcpIHsKICAgIGNvbnNvbGUubG9nKCdFdmVudDonLCBtc2cucGF5bG9hZC5ldmVudCwgbXNnLnBheWxvYWQuZGF0YSk7CiAgfQp9KTsKYGBgCgojIyBGZWF0dXJlcyAoQ3VycmVudCkKCnwgRmVhdHVyZSAgICAgICAgICAgICAgICAgICAgICAgICB8IFN0YXR1cyAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IFJFU1QgQVBJIGZvciBXaGF0c0FwcCAgICAgICAgICAgfCBSZWFkeSAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgV2ViU29ja2V0IEV2ZW50cyAoU29ja2V0LklPKSAgICB8IFJlYWR5ICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBNdWx0aS1zZXNzaW9uIFN1cHBvcnQgICAgICAgICAgIHwgUmVhZHkgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFdlYiBEYXNoYm9hcmQgICAgICAgICAgICAgICAgICAgfCBSZWFkeSAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgRG9ja2VyIERlcGxveW1lbnQgICAgICAgICAgICAgICB8IFJlYWR5ICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBXZWJob29rcyB3aXRoIEhNQUMgU2lnbmF0dXJlICAgIHwgUmVhZHkgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFNRTGl0ZSAvIFBvc3RncmVTUUwgU3RvcmFnZSAgICAgfCBSZWFkeSAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgQVBJIEtleSBBdXRoZW50aWNhdGlvbiAmIFJvbGVzICB8IFJlYWR5ICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBDSURSIElQIFdoaXRlbGlzdGluZyAgICAgICAgICAgIHwgUmVhZHkgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFJhdGUgTGltaXRpbmcgICAgICAgICAgICAgICAgICAgfCBSZWFkeSAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgQXVkaXQgTG9nZ2luZyAgICAgICAgICAgICAgICAgICB8IFJlYWR5ICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBHcm91cHMgLyBDb250YWN0cyAvIExhYmVscyBBUEkgIHwgUmVhZHkgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IENoYW5uZWxzIC8gU3RhdHVzIC8gQ2F0YWxvZyBBUEkgfCBFeHBlcmltZW50YWwgKGVuZ2luZS1saW1pdGVkKSB8CnwgUGx1Z2dhYmxlIEVuZ2luZSAod3dlYmpzIC8gQmFpbGV5cykgfCBSZWFkeSAoc2V0IGBFTkdJTkVfVFlQRWApICB8CnwgUGx1Z2luIEV4dGVuc2lvbiBTeXN0ZW0gICAgICAgICB8IFJlYWR5ICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBRdWV1ZS1iYXNlZCBXZWJob29rIFJldHJpZXMgICAgIHwgT3B0aW9uYWwgKFFVRVVFX0VOQUJMRUQ9dHJ1ZSkgfAoKIyMgVGVjaCBTdGFjawoKfCBMYXllciAgICAgfCBUZWNobm9sb2d5ICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8CnwgUnVudGltZSAgIHwgTm9kZS5qcyAyMiBMVFMgICAgICAgICAgICAgICAgfAp8IEZyYW1ld29yayB8IE5lc3RKUyAxMS54ICAgICAgICAgICAgICAgICAgIHwKfCBMYW5ndWFnZSAgfCBUeXBlU2NyaXB0IDUueCAgICAgICAgICAgICAgICB8CnwgV0EgRW5naW5lIHwgUGx1Z2dhYmxlIChgRU5HSU5FX1RZUEVgKTogd2hhdHNhcHAtd2ViLmpzIChkZWZhdWx0KSBvciBCYWlsZXlzIHwKfCBXZWJTb2NrZXQgfCBTb2NrZXQuSU8gICAgICAgICAgICAgICAgICAgICB8CnwgRGF0YWJhc2UgIHwgU1FMaXRlIChkZWZhdWx0KSAvIFBvc3RncmVTUUwgfAp8IE9STSAgICAgICB8IFR5cGVPUk0gICAgICAgICAgICAgICAgICAgICAgIHwKfCBDb250YWluZXIgfCBEb2NrZXIgKyBEb2NrZXIgQ29tcG9zZSAgICAgICB8CnwgRGFzaGJvYXJkIHwgUmVhY3QgKyBWaXRlICsgVGFuU3RhY2sgUXVlcnkgfAoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYApPcGVuV0EvCuKUnOKUgOKUgCBzcmMvICAgICAgICAgICAgICAgICAgICAjIEJhY2tlbmQgc291cmNlIGNvZGUK4pSc4pSA4pSAIGRhc2hib2FyZC8gICAgICAgICAgICAgICMgRnJvbnRlbmQgZGFzaGJvYXJkCuKUnOKUgOKUgCBkb2NrZXItY29tcG9zZS55bWwgICAgICAjIEFQSSAoc2VydmVzIGJ1bmRsZWQgZGFzaGJvYXJkKSArIG9wdGlvbmFsIGRhdGFzdG9yZXMK4pSc4pSA4pSAIGRvY2tlci1jb21wb3NlLmRldi55bWwgICMgRGV2LW9ubHkgY29tcG9zZQrilJzilIDilIAgZG9jcy8gICAgICAgICAgICAgICAgICAjIFByb2plY3QgZG9jdW1lbnRhdGlvbgrilJTilIDilIAgZGF0YS8gICAgICAgICAgICAgICAgICAgIyBMb2NhbCBydW50aW1lIGRhdGEgKHNlc3Npb25zLCBtZWRpYSwgYXBpIGtleSkKYGBgCgojIyBDb250cmlidXRpbmcKClNlZSBbRGV2ZWxvcG1lbnQgR3VpZGVsaW5lc10oLi8wOC1kZXZlbG9wbWVudC1ndWlkZWxpbmVzLm1kKSBmb3IgY29kaW5nIHN0YW5kYXJkcyBhbmQgd29ya2Zsb3cuCgojIyBMaWNlbnNlCgpNSVQgTGljZW5zZS4KCi0tLQoKPGRpdiBhbGlnbj0iY2VudGVyIj4KCioqU3RhcnQgUmVhZGluZzogWzAxIC0gUHJvamVjdCBPdmVydmlld10oLi8wMS1wcm9qZWN0LW92ZXJ2aWV3Lm1kKSoqCgpfT3BlbldBIERvY3VtZW50YXRpb24gwrcgTGFzdCB1cGRhdGVkOiAyMDI2LTA3LTExXwoKPC9kaXY+Cg==
+<p align="center">
+  <img src="logo/openwa_logo.webp" alt="OpenWA Logo" width="200"/>
+</p>
+
+<h1 align="center">OpenWA Documentation</h1>
+<p align="center">
+  <strong>Open Source WhatsApp API Gateway</strong>
+</p>
+
+<p align="center">
+  <a href="#features-current">Features</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#documentation-map">Docs</a> •
+  <a href="#api-example">API</a> •
+  <a href="#contributing">Contributing</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/package-json/v/rmyndharis/OpenWA?label=version&color=blue" alt="Version"/>
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
+  <img src="https://img.shields.io/badge/node-22_LTS-brightgreen.svg" alt="Node"/>
+  <img src="https://img.shields.io/badge/NestJS-11.x-red.svg" alt="NestJS"/>
+  <img src="https://img.shields.io/badge/docker-ready-blue.svg" alt="Docker"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6.svg" alt="TypeScript"/>
+</p>
+
+---
+
+## Documentation Map
+
+**Full Index (by number)**
+
+| No  | Document                                                         | Description                                       |
+| --- | ---------------------------------------------------------------- | ------------------------------------------------- |
+| 01  | [Project Overview](./01-project-overview.md)                     | Vision, goals, scope, current status              |
+| 02  | [Requirements Specification](./02-requirements-specification.md) | Functional and non-functional requirements        |
+| 03  | [System Architecture](./03-system-architecture.md)               | Architecture, modules, and runtime flows          |
+| 04  | [Security Design](./04-security-design.md)                       | Auth, rate limiting, and security controls        |
+| 05  | [Database Design](./05-database-design.md)                       | Entities and storage considerations               |
+| 06  | [API Specification](./06-api-specification.md)                   | REST API and WebSocket protocol                   |
+| 07  | [API Collection](./07-api-collection.md)                         | Example requests and Postman import tips          |
+| 08  | [Development Guidelines](./08-development-guidelines.md)         | Coding standards and workflow                     |
+| 09  | [Testing Strategy](./09-testing-strategy.md)                     | Test types and tooling                            |
+| 10  | [DevOps & Infrastructure](./10-devops-infrastructure.md)         | Docker, deployment, and environment configuration |
+| 10-ID| [Panduan Docker (ID)](./DOCKER_ID.md)                            | Panduan deployment Docker dalam Bahasa Indonesia  |
+| 11  | [Operational Runbooks](./11-operational-runbooks.md)             | Incident, maintenance, and backup runbooks        |
+| 12  | [Troubleshooting FAQ](./12-troubleshooting-faq.md)               | Common issues and fixes                           |
+| 13  | [Horizontal Scaling](./13-horizontal-scaling.md)                 | Multi-node deployment guidance                    |
+| 14  | [Migration Guide](./14-migration-guide.md)                       | Upgrade and data migration guidance               |
+| 15  | [Project Roadmap](./15-project-roadmap.md)                       | Near-term and long-term roadmap                   |
+| 16  | [Risk Management](./16-risk-management.md)                       | Risks and mitigations                             |
+| 17  | [Dashboard Design](./17-dashboard-design.md)                     | Dashboard UX overview                             |
+| 18  | [SDK Design](./18-sdk-design.md)                                 | SDK plans and conventions                         |
+| 19  | [Plugin Architecture](./19-plugin-architecture.md)               | Extensibility concepts                            |
+| 20  | [Community Guidelines](./20-community-guidelines.md)             | Contribution and governance                       |
+| 21  | [Glossary](./21-glossary.md)                                     | Terms and definitions                             |
+| 22  | [n8n Integration](./22-n8n-integration.md)                       | n8n community nodes for OpenWA                    |
+| 23  | [Community Integrations](./23-community-integrations.md)         | Third-party adapters built on the OpenWA API      |
+| 23-S| [Plugin Sandboxing](./23-plugin-sandboxing.md)                   | Worker isolation, capabilities, and plugin limits |
+| 24  | [MCP Integration](./24-mcp-integration.md)                       | Model Context Protocol tools and auth model       |
+| 25  | [Integration Fabric](./25-integration-fabric.md)                | Inbound webhook substrate for plugin integrations |
+| 26  | [Panduan Instalasi Localhost (ID)](./26-instalasi-localhost.md)  | Instalasi Docker dan manual untuk localhost, dalam Bahasa Indonesia |
+
+**Examples**
+
+| Example | Description |
+| ------- | ----------- |
+| [Session Phone-Number Pairing](./examples/session-phone-number-pairing.md) | Link an existing WhatsApp account by phone number instead of scanning QR |
+| [Chat History Limits](./examples/chat-history-limits.md) | Understand local message history vs bounded live WhatsApp history |
+| [Webhook Signature Verification](./examples/webhook-signature-verification.md) | Verify signed OpenWA webhook deliveries in Node.js and Python |
+| [n8n Appointment Booking Workflow](./examples/n8n-appointment-booking.md) | Build an appointment-booking flow with OpenWA and n8n |
+
+## Quick Start
+
+### Option A: Minimal Setup (SQLite, no Docker services)
+
+```bash
+# Clone repository
+git clone https://github.com/rmyndharis/OpenWA.git
+cd OpenWA
+
+# Install & configure
+npm install
+cp .env.minimal .env
+
+# Create data directories
+mkdir -p data/sessions data/media
+
+# Run
+npm run start:dev
+```
+
+Access:
+
+- API: `http://localhost:2785/api`
+- Swagger: `http://localhost:2785/api/docs`
+- Health: `http://localhost:2785/api/health`
+
+### Option B: Docker (single container: API + Dashboard)
+
+```bash
+# Clone repository
+git clone https://github.com/rmyndharis/OpenWA.git
+cd OpenWA
+
+# Start services
+docker compose up -d
+```
+
+Access (the dashboard is bundled into the API and served on the same port):
+
+- Dashboard: `http://localhost:2785`
+- API: `http://localhost:2785/api`
+- Swagger: `http://localhost:2785/api/docs`
+
+> For a step-by-step walkthrough of both options (including prerequisites and
+> localhost-specific troubleshooting), see
+> [Panduan Instalasi Localhost (ID)](./26-instalasi-localhost.md).
+
+### API Key
+
+OpenWA seeds a default API key on first run and writes it to:
+
+- `data/.api-key` (development)
+- `/app/data/.api-key` inside the API container when using Docker
+
+The startup logs also print the initial key. By default a cryptographically
+random `owa_k1_...` admin key is generated on first run in all environments; set
+`ALLOW_DEV_API_KEY=true` to seed the well-known `dev-admin-key` for local
+development only. Use an admin key to create additional keys with
+`POST /api/auth/api-keys` (see
+[API Specification](./06-api-specification.md#api-key-management)).
+
+## API Example
+
+```bash
+# Create a session
+curl -X POST http://localhost:2785/api/sessions \
+  -H "X-API-Key: your-api-key" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "my-bot"}'
+
+# Start the session
+curl -X POST http://localhost:2785/api/sessions/{sessionId}/start \
+  -H "X-API-Key: your-api-key"
+
+# Get QR code (base64)
+curl http://localhost:2785/api/sessions/{sessionId}/qr \
+  -H "X-API-Key: your-api-key"
+
+# Send a message
+curl -X POST http://localhost:2785/api/sessions/{sessionId}/messages/send-text \
+  -H "X-API-Key: your-api-key" \
+  -H "Content-Type: application/json" \
+  -d '{"chatId": "628123456789@c.us", "text": "Hello from OpenWA!"}'
+```
+
+## WebSocket Example (Socket.IO)
+
+```javascript
+import { io } from 'socket.io-client';
+
+const socket = io('http://localhost:2785/events', {
+  extraHeaders: { 'X-API-Key': 'your-api-key' },
+  transports: ['websocket'],
+});
+
+socket.on('connect', () => {
+  socket.emit('message', {
+    type: 'subscribe',
+    sessionId: 'sess_abc123',
+    events: ['message.received', 'session.status'],
+    requestId: 'req_001',
+  });
+});
+
+socket.on('message', msg => {
+  if (msg.type === 'event') {
+    console.log('Event:', msg.payload.event, msg.payload.data);
+  }
+});
+```
+
+## Features (Current)
+
+| Feature                         | Status                        |
+| ------------------------------- | ----------------------------- |
+| REST API for WhatsApp           | Ready                         |
+| WebSocket Events (Socket.IO)    | Ready                         |
+| Multi-session Support           | Ready                         |
+| Web Dashboard                   | Ready                         |
+| Docker Deployment               | Ready                         |
+| Webhooks with HMAC Signature    | Ready                         |
+| SQLite / PostgreSQL Storage     | Ready                         |
+| API Key Authentication & Roles  | Ready                         |
+| CIDR IP Whitelisting            | Ready                         |
+| Rate Limiting                   | Ready                         |
+| Audit Logging                   | Ready                         |
+| Groups / Contacts / Labels API  | Ready                         |
+| Channels / Status / Catalog API | Experimental (engine-limited) |
+| Pluggable Engine (wwebjs / Baileys) | Ready (set `ENGINE_TYPE`)  |
+| Plugin Extension System         | Ready                         |
+| Queue-based Webhook Retries     | Optional (QUEUE_ENABLED=true) |
+
+## Tech Stack
+
+| Layer     | Technology                    |
+| --------- | ------------------------------ |
+| Runtime   | Node.js 22 LTS                |
+| Framework | NestJS 11.x                   |
+| Language  | TypeScript 5.x                |
+| WA Engine | Pluggable (`ENGINE_TYPE`): whatsapp-web.js (default) or Baileys |
+| WebSocket | Socket.IO                     |
+| Database  | SQLite (default) / PostgreSQL |
+| ORM       | TypeORM                       |
+| Container | Docker + Docker Compose       |
+| Dashboard | React + Vite + TanStack Query |
+
+## Project Structure
+
+```
+OpenWA/
+├── src/                    # Backend source code
+├── dashboard/              # Frontend dashboard
+├── docker-compose.yml      # API (serves bundled dashboard) + optional datastores
+├── docker-compose.dev.yml  # Dev-only compose
+├── docs/                  # Project documentation
+└── data/                   # Local runtime data (sessions, media, api key)
+```
+
+## Contributing
+
+See [Development Guidelines](./08-development-guidelines.md) for coding standards and workflow.
+
+## License
+
+MIT License.
+
+---
+
+<div align="center">
+
+**Start Reading: [01 - Project Overview](./01-project-overview.md)**
+
+_OpenWA Documentation · Last updated: 2026-06-18_
+
+</div>
